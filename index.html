@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="styles/styles.css" rel="stylesheet">
+    <title>Suhail Yazdan's Portfolio site</title>
+  </head>
+
+  <!-- <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70"> -->
+  <body>
+  <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light custContainer">
+      <div class="container">
+        <div class="logo-container">
+          <a class="navbar-brand logo" href="#"><img src="images/logo-box.png" title="Value Wings"></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 ms-auto mb-lg-0 custNavLink">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#solutions">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide custCarousel" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/slide-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block textShadow">
+            <h5 class="textShadow">Let's Create</h5>
+            <p>Your Company's growth strategy</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/slide-02.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block textShadow">
+            <h5>We know, what it takes to be the leader.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/slide-03.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block textShadow">
+            <h5>Discover the business secrets for your business</h5>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+    
+    <div class="row mt-4">
+      <div class="col-12 col-lg-8 offset-lg-2 col-sm-10 offset-sm-1">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="services-box h-100">
+              <a href="#" id="services-icon"></a>
+              
+              <h3 class="mb-4 text-center">Services</h3>
+              
+              <img src="images/service-img-01.jpg" class="img-fluid w-100">
+              
+              <h4 class="mx-4 mt-4">H R Consulting</h4>
+              
+              <p class="mx-4 mb-4">
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+              </p>
+
+              <img src="images/service-img-02.jpg" class="img-fluid w-100">
+
+              <h4 class="mx-4 mt-4">H R Outsourcing</h4>
+                
+              <p class="mx-4 mb-4">
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+              </p>
+
+              <img src="images/service-img-03.jpg" class="img-fluid w-100">
+
+              <h4 class="mx-4 mt-4">H R Solutions</h4>
+                
+              <p class="mx-4 mb-4">
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+              </p>
+
+              <img src="images/service-img-04.jpg" class="img-fluid w-100">
+
+              <h4 class="mx-4 mt-4">Job Portal</h4>
+                
+              <p class="mx-4 mb-4">
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+              </p>
+
+              <img src="images/service-img-04.jpg" class="img-fluid w-100">
+
+              <h4 class="mx-4 mt-4">Job Portal</h4>
+                
+              <p class="mx-4 mb-4">
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-8 mt-4 mt-md-0">
+            <div class="horizontal-box">
+              <p>
+                Value Wings Enterprises a Human Resource Solution Based Company established in 2002, catering to work force needs of enterprises. Work Force Management, Technology, Process and Quality being a strong focus at Value Wings it has been able to provide various Human Recourse Solutions across the Industry. Our continued rapid growth is a testament to the certainty our clients experience every day.
+              </p>
+            </div>
+
+            <div>
+              <img src="images/box-img-intro.jpg" class="img-fluid w-100 brown-border">
+            </div>
+
+            <span id="about"></span>
+            <div class="row mt-3">
+              <div class="col-md-6">
+                <div id="vision-box" class="vertical-box">
+                  <a href="#" class="icon"></a>
+                  <h3 class="my-4">VISION</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div id="mission-box" class="vertical-box">
+                  <a href="#" class="icon"></a>
+                  <h3 class="my-4">MISSION</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <span id="services"></span>
+            <div class="horizontal-box mt-3">
+              <h3 class="text-center anchorPosition"><span><img src="images/icon-about.png"></span>  ABOUT US</h3>
+              <p>
+                Value Wings Enterprises a Human Resource Solution Based Company established in 2002, catering to work force needs of enterprises. Work Force Management, Technology, Process and Quality being a strong focus at Value Wings it has been able to provide various Human Recourse Solutions across the Industry. Our continued rapid growth is a testament to the certainty our clients experience every day.
+              </p>
+            </div>
+
+            <div>
+              <img src="images/box-img-abt.jpg" class="img-fluid w-100 brown-border">
+            </div>
+
+            <span id="solutions"></span>
+            <div class="horizontal-box mt-3">
+              <h3 class="text-center anchorPosition"><span><img src="images/icon-services.png"></span>  SERVICES</h3>
+              <p>
+                Value Wings Enterprises a Human Resource Solution Based Company established in 2002, catering to work force needs of enterprises. Work Force Management, Technology, Process and Quality being a strong focus at Value Wings it has been able to provide various Human Recourse Solutions across the Industry. Our continued rapid growth is a testament to the certainty our clients experience every day.
+              </p>
+            </div>
+
+            <div>
+              <img src="images/box-img-services.jpg" class="img-fluid w-100 brown-border">
+            </div>
+
+            <div class="horizontal-box mt-3">
+              <h3 class="text-center anchorPosition"><span><img src="images/icon-products.png"></span>  SOLUTIONS</h3>
+              <p>
+                Value Wings Enterprises a Human Resource Solution Based Company established in 2002, catering to work force needs of enterprises. Work Force Management, Technology, Process and Quality being a strong focus at Value Wings it has been able to provide various Human Recourse Solutions across the Industry. Our continued rapid growth is a testament to the certainty our clients experience every day.
+              </p>
+            </div>
+
+            <div>
+              <img src="images/box-img-solution.jpg" class="img-fluid w-100 brown-border">
+            </div>
+
+            <div class="row mt-3">
+              <div class="col-12 col-xl-4">
+                <div id="Solution-01" class="vertical-box h-100">
+                  <a href="#" class="icon"></a>
+                  <h3 class="mb-3">Solution 01</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-12 col-xl-4">
+                <div id="Solution-02" class="vertical-box h-100">
+                  <a href="#" class="icon"></a>
+                  <h3 class="mb-3">Solution 02</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.
+                  </p>
+                </div>       
+              </div>
+              
+              <div class="col-12 col-xl-4">
+                <div id="Solution-03" class="vertical-box h-100">
+                  <a href="#" class="icon"></a>
+                  <h3 class="mb-3">Solution 03</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-12 col-lg-8 offset-lg-2 col-sm-10 offset-sm-1">
+        <div class="contact-box p-5">
+          <h3 class="text-center anchorPosition" id="contact"><span><img src="images/icon-contact.png"></span> CONTACT</h3>
+          <div class="row mt-4">
+            <div class="col-12">
+              <div class="embedMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7776.008175651357!2d77.596059!3d12.97159!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe138768bb2a0df8a!2sUB%20City!5e0!3m2!1sen!2sin!4v1608546037000!5m2!1sen!2sin" 
+                  width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <form>
+            <div class="row mt-4">
+              <div class="col-12 col-lg-4">
+                <label for="name" class="form-label col">Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject">
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 col-lg-2 offset-lg-10 mt-4">
+                <button type="submit" class="btn brownBTN w-100">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4 custContainer">
+      <div class="col-12 col-lg-5">
+        <div class="h-100 d-flex align-items-center justify-content-center text-center">
+          © 2014 Value Wings. All Rights Reserved.
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-2">
+        <ul class="socialMedia h-100 d-flex align-items-center justify-content-center">
+          <li><a href="#" class="smmIcon"></a></li>
+          <li><a href="#" class="smmIcon"></a></li>
+          <li><a href="#" class="smmIcon"></a></li>
+          <li><a href="#" class="smmIcon"></a></li>
+          <li><a href="#" class="smmIcon"></a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-lg-5">
+        <ul id="bottom-links" class="h-100 d-flex align-items-center justify-content-center">
+          <li><a href="#">home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+
+    <script>
+      var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+        target: '.navbar',
+      })
+    </script>
+  </body>
+</html>
